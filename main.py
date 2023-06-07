@@ -10,7 +10,6 @@ def t5_promt_test():
     summary = tokenizer.decode(output[0])
     print(summary)
 
-
 if __name__ == '__main__':
     t5_promt_test()
 
